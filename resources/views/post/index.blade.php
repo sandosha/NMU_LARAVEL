@@ -14,10 +14,10 @@ index page
         <td>{{$post->body}}</td>
         <td>{{optional($post->user)->name}}</td>
         <td>
-            <a href=" /posts/{{$post['id']}}" class="btn btn-primary">View</a>
+            <a href=" /posts/{{$post['id']}}" class="btn btn-primary">Read</a>
         </td>
         <td>
-            <a href="/posts/{{$post['id']}}/edit" class="btn btn-danger">Edit</a>
+            <a href="/posts/{{$post['id']}}/edit" class="btn btn-danger">Update</a>
         </td>
         <td>
             <form action="/posts/{{$post['id']}}" method="post">
